@@ -1,0 +1,10 @@
+name: GithubActionTest
+on: workflow_dispatch
+jobs:
+  hello:
+    runs-on: ubuntu-22.04
+    steps:
+      -name: Hello step
+       run: echo "hello world"
+  
+ 
