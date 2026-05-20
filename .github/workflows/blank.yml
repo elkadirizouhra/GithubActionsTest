@@ -11,3 +11,11 @@ jobs:
         run: |
           echo "hello world"
           echo "hello world 2"
+  hello2:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Hello step
+        run: |
+          echo "hello world job2"
+          echo "hello world 2 job2"
