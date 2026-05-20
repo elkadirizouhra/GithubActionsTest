@@ -1,6 +1,10 @@
-name: GithubActionTestPushDemo
+name: GithubActionPushDemo Branches
 
-on: push
+on: 
+ push: 
+  branches: 
+   - main
+   - develop
 
 jobs:
   hello:
@@ -9,6 +13,6 @@ jobs:
     steps:
       - name: Hello step
         run: |
-          echo "hello world"
-          echo "hello world 2"
+          echo "hello world demo branch"
+          echo "hello world 2 demo branch"
   
